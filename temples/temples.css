@@ -1,0 +1,141 @@
+html, body {
+    margin:0;
+    padding: 0;
+}
+
+#header{
+    margin:0;
+    padding:0;
+    border:1px solid;
+    background-color: #121212;
+    position: fixed;
+    top:0;
+    width:100%;
+}
+
+
+#c1, #c2, #c3, #c4{
+    display: inline-block;
+}
+
+#c1{ 
+    padding: 5px 8% 5px 13%;
+    font-size: 250%;
+    color: gold;
+    font-family: 'East Sea Dokdo', cursive;
+    font-variant: small-caps;
+    
+}
+
+#c2{
+    padding: 10px 5% 15px 16%;
+    font-size: 130%;
+    color: #ffffff;
+    font-family: 'Yeon Sung', cursive;
+}
+
+#c3{
+    padding: 10px 5% 15px 1%;
+    font-size: 130%;
+    color: #ffffff;
+    font-family: 'Yeon Sung', cursive;
+}
+
+#c4{
+    padding: 10px 5% 15px 1%;
+    font-size: 130%;
+    color: #ffffff;
+    font-family: 'Yeon Sung', cursive;
+}
+
+a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+a:hover {
+    color: red;
+}
+
+#main{
+    background-color:#111827;
+    width:auto;
+    height: 100%;
+    padding: 0 42px 0 42px;
+    margin-left: auto;
+    margin: auto;
+    padding: 0 0 0 0;
+}
+
+#container{
+    padding: 0 84px 0 84px ;
+}
+
+#card1{
+    border: 1px solid #1f2937;
+    width: 292px;
+    height: 414px;
+    margin: -675px 0 0 42;
+}
+#card2{
+    border: 1px solid #1f2937;
+    width: 292px;
+    height: 414px;
+    margin: -416px 0 0 368px;
+}
+#card3{
+    border: 1px solid #1f2937;
+    width: 292px;
+    height: 414px;
+    margin: -416px 0 0 702px;
+}
+#card4{
+    border: 1px solid #1f2937;
+    width: 292px;
+    height: 414px;
+    margin: -416px 0 0 1030px;
+}
+
+.cards{
+    border-radius: 10px;
+}
+
+.timg{
+    width: 292px;
+    height:192px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+
+div.ch{
+    width: 244px;
+    height: 174px;
+    padding: 24px;
+}
+
+dt.name{
+    margin: -19px 0 6px 0;
+    color:#ffffff;
+    font-size: 30px;
+    font-family: 'Lobster', cursive;
+}
+dd.ldes{
+    color:#7c8390;
+    font-size: 18px;
+    margin: 0 0 21px 0; 
+    font-family: 'Redressed', cursive;
+}
+
+a.clink{
+    color: #5c65b2;
+}
+
+a.clink:hover{
+    color: red;
+}
+
+#rameshwar{
+    margin: -3px 0 0 0;
+}
+

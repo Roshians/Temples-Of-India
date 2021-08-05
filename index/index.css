@@ -1,0 +1,98 @@
+html, body {
+    margin:0;
+    padding: 0;
+}
+
+#header{
+    margin:0;
+    padding:0;
+    border:1px solid;
+    background-color: #121212;
+    position: fixed;
+    top:0;
+    width:100%;
+}
+
+
+#c1, #c2, #c3, #c4{
+    display: inline-block;
+}
+
+#c1{ 
+    padding: 5px 8% 5px 13%;
+    font-size: 250%;
+    color: gold;
+    font-family: 'East Sea Dokdo', cursive;
+    
+}
+
+#c2{
+    padding: 10px 5% 15px 16%;
+    font-size: 130%;
+    color: #ffffff;
+    font-family: 'Yeon Sung', cursive;
+}
+
+#c3{
+    padding: 10px 5% 15px 1%;
+    font-size: 130%;
+    color: #ffffff;
+    font-family: 'Yeon Sung', cursive;
+}
+
+#c4{
+    padding: 10px 5% 15px 1%;
+    font-size: 130%;
+    color: #ffffff;
+    font-family: 'Yeon Sung', cursive;
+}
+
+#main{
+    background: url('images/chardham.jpg') no-repeat center fixed;
+    background-size: 103%;
+    height: 550px;
+}
+
+#bottom{
+    
+    padding: 1px 10% 50px 0;
+    background-color: #001f22;
+}
+
+#bottom_head{
+    margin: 90px 55% 10px 120px;
+    padding: 5px 0 5px 0;
+    font-size: 279%;
+    color: #ffffff;
+    background-color: #00b65b;
+    text-align: center;
+    font-family: 'Lobster', cursive;
+}
+
+p.temp_para{
+    padding: 14px 31% 10px 120px;
+    font-size: 1.4em;
+    color: #ffffff;
+    font-family: 'Redressed', cursive;
+
+}
+
+img{
+    float: right;
+    width:360px;
+    height: 375px;
+}
+
+a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+a:hover {
+    color: red;
+}
+
+/* hr{
+    width: 1200px;
+    margin: 60px auto auto 100px;
+} */
